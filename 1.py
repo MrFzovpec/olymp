@@ -1,5 +1,5 @@
-hours_t = int(input())
-utc = int(input())
-hours_p = int(input())
+H = int(input())
+A = int(input())
+B = int(input())
 
-print((hours_t - utc + hours_p) % 24)
+print((H - A + B) % 24)
